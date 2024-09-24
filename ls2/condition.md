@@ -42,3 +42,6 @@
   }else{
   <Ghi logic với biểu thức logic trả về là sai>
   }
+
+* Toán tử 3 ngôi:
+  <điều kiện> ? <logic đúng> : <logic sai>
