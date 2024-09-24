@@ -9,7 +9,7 @@
 // y = Number(prompt("Số 2"))
 // result = x + y
 // console.log("Tổng =",result )
-//2 
+//2
 //   x = Number(prompt("Bán kính"))
 //   area = x **2 * 3.14
 //   console.log("Area =",area)
@@ -23,7 +23,7 @@
 //4
 //  Radius = Number(prompt("Bán kính"))
 //  Height = Number(prompt("Chiều cao"))
-//  v = Radius **2 * 3.14 * Height
+//  v = Radius ** 2 * 3.14 * Height
 //  console.log("V = ", v)
 //5
 //    Celsius = Number(prompt("Độ:"))
