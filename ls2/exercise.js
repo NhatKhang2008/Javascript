@@ -57,12 +57,18 @@
 
 // number % 2 == 0 ? `Number ${number} la so chan` : `Number ${number} la so le`;
 // switch ... case
-number = Number(prompt("Number"));
-switch (number % 2) {
-  case 0:
-    console.log("đây là số chẵn");
-    break;
-  default:
-    console.log("đây là số lẻ");
-    break;
-}
+// number = Number(prompt("Number"));
+// switch (number % 2 ==0) {
+//   case 0:
+//     console.log("đây là số chẵn");
+//     break;
+//   default:
+//     console.log("đây là số lẻ");
+//     break;
+// }
+
+// Xác định mùa trong năm (kiểm tra mùa xuân, hạ, thu, đông). Nhập vào tháng, in ra mùa tương ứng.
+// Tháng 1, 2, 3: Mùa xuân
+// Tháng 4, 5, 6: Mùa hạ
+// Tháng 7, 8, 9: Mùa thu
+// Tháng 10, 11, 12: Mùa đông
