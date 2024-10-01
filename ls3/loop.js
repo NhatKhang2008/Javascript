@@ -12,3 +12,9 @@
 // for (let i = 1; i <= 10; i++) {
 //   console.log(`${So} x ${i} = ${So * i}`);
 // }
+// n = Number(prompt("So?"));
+// x = 0;
+// for (let i = 1; i <= n; i = i + 2) {
+//   x = x + i;
+// }
+// console.log(`Tong so le tu 1 toi n la ${x}`)
