@@ -8,6 +8,7 @@
 // console.log(`2 x 8 = ${2 * 8}`);
 // console.log(`2 x 9 = ${2 * 9}`);
 // console.log(`2 x 10 = ${2 * 10}`);
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
-}
+// So = Number(prompt("So?"));
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`${So} x ${i} = ${So * i}`);
+// }
