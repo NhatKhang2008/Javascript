@@ -68,23 +68,36 @@
 // }
 
 // b4
-gpa = Number(prompt("Score"));
-if (gpa > 9) {
-  console.log("Hoc lux xuat sac");
-} else if (gpa > 8) {
-  console.log("Hoc luc gioi");
-} else if (gpa >= 7) {
-  console.log("Hoc luc kha");
-} else if (gpa > 5) {
-  console.log("Hoc luc trung binh");
-} else if (gpa < 5) {
-  console.log("Hoc luc yeu");
-} else {
-  console.log("Score phai be hon 10");
-}
+// gpa = Number(prompt("Score"));
+// if (gpa > 9) {
+//   console.log("Hoc lux xuat sac");
+// } else if (gpa > 8) {
+//   console.log("Hoc luc gioi");
+// } else if (gpa >= 7) {
+//   console.log("Hoc luc kha");
+// } else if (gpa > 5) {
+//   console.log("Hoc luc trung binh");
+// } else if (gpa < 5) {
+//   console.log("Hoc luc yeu");
+// } else {
+//   console.log("Score phai be hon 10");
+// }
 
 // Xác định mùa trong năm (kiểm tra mùa xuân, hạ, thu, đông). Nhập vào tháng, in ra mùa tương ứng.
 // Tháng 1, 2, 3: Mùa xuân
 // Tháng 4, 5, 6: Mùa hạ
 // Tháng 7, 8, 9: Mùa thu
 // Tháng 10, 11, 12: Mùa đông
+// Bai giai
+// thang = Number(prompt("Thang ?"));
+// if ( thang >= 1 && thang <= 3) {
+//     console.log(`Thang ${thang} la mua xuan`);
+// } else if( thang > 3 && thang <= 6) {
+//     console.log(`Thang ${thang} la mua ha`);
+// } else if( thang > 6 && thang <= 9) {
+//     console.log(`Thang ${thang} la mua thu`);
+// } else if ( thang > 9 && thang <=12) {
+//     console.log(`Thang ${thang} la mua dong`);
+// } else {
+//     console.log("Hay nhap so thang dung")
+// }
