@@ -18,3 +18,19 @@
 //   x = x + i;
 // }
 // console.log(`Tong so le tu 1 toi n la ${x}`)
+
+// let x = 12;
+// do {
+//   x = Number(prompt("Nhap so x:"));
+// } while (x < 10);
+// console.log("dừng vòng lặp");
+
+// let n = Number(prompt("Nhập số n:"));
+// for (let i = 1; i <= n; i++) {
+//   console.log("i = ", i);
+//   if (i == 5) {
+//     console.log("có số 5 trong dãy từ 1 đến n");
+//     break;
+//   }
+// }
+// console.log("dừng vòng lặp");

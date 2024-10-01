@@ -1,12 +1,19 @@
-# Vòng lặp hữu hạn
+# Vòng lặp hữu hạn: for
 
 Cấu trúc vòng lặp for:
 for (<Khởi tạo biến lặp>; <Điều kiện>; <Bước nhảy>){
 <Logic thỏa mãn điều kiện>
 }
 
-# let i = 0: Khởi tạo biến lặp
+- let i = 0: Khởi tạo biến lặp
+- i < 10: Điều kiện
+- i = i + 1: Bước nhảy
 
-# i < 10: Điều kiện
+# Vòng lặp vô hạn: while, do...while
 
-# i = i + 1: Bước nhảy
+while (condition) {
+// Code here
+}
+do {
+// Code here
+}while(condition)
