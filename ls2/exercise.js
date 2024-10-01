@@ -54,11 +54,11 @@
 // GPA từ 7.0 đến dưới 8.0: Khá
 // GPA từ 5.0 đến dưới 7.0: Trung bình
 // GPA dưới 5.0: Yếu
-
 // number % 2 == 0 ? `Number ${number} la so chan` : `Number ${number} la so le`;
 // switch ... case
 // number = Number(prompt("Number"));
 // switch (number % 2 ==0) {
+// switch (number % 2) {
 //   case 0:
 //     console.log("đây là số chẵn");
 //     break;
@@ -66,6 +66,22 @@
 //     console.log("đây là số lẻ");
 //     break;
 // }
+
+// b4
+gpa = Number(prompt("Score"));
+if (gpa > 9) {
+  console.log("Hoc lux xuat sac");
+} else if (gpa > 8) {
+  console.log("Hoc luc gioi");
+} else if (gpa >= 7) {
+  console.log("Hoc luc kha");
+} else if (gpa > 5) {
+  console.log("Hoc luc trung binh");
+} else if (gpa < 5) {
+  console.log("Hoc luc yeu");
+} else {
+  console.log("Score phai be hon 10");
+}
 
 // Xác định mùa trong năm (kiểm tra mùa xuân, hạ, thu, đông). Nhập vào tháng, in ra mùa tương ứng.
 // Tháng 1, 2, 3: Mùa xuân
