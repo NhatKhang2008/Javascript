@@ -5,3 +5,18 @@
 // Bài tập 2: Đếm số lần xuất hiện của một phần tử trong mảng. Biết rằng mảng và phần tử cần kiểm tra được nhập từ bàn phím.
 // Ví dụ:
 // cho mảng number = [1, 23, 33, 41, 33, 42, 1, 22, 23, 23] => kết quả: nếu nhập số 23 xuất hiện 3 lần
+//BT1 
+// const number1 = [10, -12, 0, -1, -3, -4 ];
+// let Max = number1[0];
+//  for ( i = 1; i < number1.length; i++) {
+//     if (number1[i] > Max) (Max = number1[i])
+//  }
+// console.log(`So lon nhat la ${Max}`)
+//BT2
+//  const number1 =  [1, 23, 33, 41, 33, 42, 1, 22, 23, 23];
+//  n = Number(prompt("So?"));
+//  let times = 0;
+//  for ( i = 0 ; i < number1.length; i++) {
+//     if ( number1[i] == n) {times++}
+//  }
+// console.log(`So lan xuat hien so ${n} la ${times} lan`)

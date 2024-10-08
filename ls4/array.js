@@ -26,7 +26,7 @@ let animals = [
 // animals[4] = "chicken"
 // animals[5] = "elephant"
 
-for (let i = 0; i < animals.length; i++) {
-  // độ dài của mảng - 1
-  if (animals[i] == "monkey") console.log("This is a monkey", i);
-}
+// for (let i = 0; i < animals.length; i++) {
+//   // độ dài của mảng - 1
+//   if (animals[i] == "monkey") console.log("This is a monkey", i);
+// }
