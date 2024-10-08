@@ -26,3 +26,25 @@
 // if ( x == 0){
 //     console.log(`${n} la so nguyen to`)
 // }
+//B2
+// n = Number(prompt("So?"));
+// let sum = 0;
+// for (let i = 0; i < n; i++) {
+//     if (n % i == 0) (sum = sum + i);
+// }
+// if ( sum == n ) (console.log(`${n} la so hoan hao`))
+// else (console.log(`${n} khong phai la so hoan hao`))
+//B3
+// function kiemtrasochinhphuong(n) {
+//     if (n <= 0) {
+//       console.log(`${n} khong phai la so chinh phuong`);
+//     }
+//     let canbachai = Math.sqrt(n);
+//     if (Number.isInteger(canbachai)) {
+//       console.log(`${n} la so chinh phuong`);
+//     } else {
+//       console.log(`${n} khong phai la so chinh phuong`);
+//     }
+//   }
+// h = Number(prompt("So?"));
+// console.log(kiemtrasochinhphuong(h))
