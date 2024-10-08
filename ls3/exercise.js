@@ -11,29 +11,33 @@
 // Gợi ý: Số chính phương là số mà căn bậc 2 của nó là số nguyên
 // Ví dụ: 4, 9, 16, 25, 36, 49, 64, 81, 100, ...
 
-//B1 
+//B1
 // n = Number(prompt("So?"));
 // let x = 0;
-// for (let i = 2 ; i < n ; i++) {
-//    if ( n % i == 0) { x = 1 };
+// for (let i = 2; i < Math.sqrt(n); i++) {
+//   if (n % i == 0) {
+//     x = 1;
+//   }
 // }
-// if ( n <= 2 ) {
-//     x = 1
+// if (n <= 2) {
+//   x = 1;
 // }
-// if ( x == 1 ){
-//     console.log(`${n} khong phai la so nguyen to`);
+// if (x == 1) {
+//   console.log(`${n} khong phai la so nguyen to`);
 // }
-// if ( x == 0){
-//     console.log(`${n} la so nguyen to`)
+// if (x == 0) {
+//   console.log(`${n} la so nguyen to`);
 // }
+
 //B2
 // n = Number(prompt("So?"));
 // let sum = 0;
-// for (let i = 0; i < n; i++) {
-//     if (n % i == 0) (sum = sum + i);
+// for (let i = 2; i < Math.sqrt(n); i++) {
+//   if (n % i == 0) sum = sum + i + n / i;
 // }
-// if ( sum == n ) (console.log(`${n} la so hoan hao`))
-// else (console.log(`${n} khong phai la so hoan hao`))
+// if (sum + 1 == n) console.log(`${n} la so hoan hao`);
+// else console.log(`${n} khong phai la so hoan hao`);
+
 //B3
 // function kiemtrasochinhphuong(n) {
 //     if (n <= 0) {
