@@ -29,4 +29,55 @@
 // const number10 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]; => kết quả: 9
 // const number11 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10]; => kết quả: 9
 // const number12 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 10]; => kết quả: 9
-// const number13 = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]; => kết quả: không có số lớn thứ 2
+// const number13 = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10] => kết quả: không có số lớn thứ 2
+// Bai 3
+// let playlist = ["Song A", "Song B", "Song C", "Song D", "Song E"];
+// let first = 0;
+// let last = playlist.length -1;
+// while (first <= last) {
+//     let b = playlist[first];
+//     playlist[first] = playlist[last];
+//     playlist[last] = b;
+//     first++;
+//     last--;
+// }
+// console.log((playlist));
+// Bai 4
+// const number5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let sum = 1;
+// for ( let i = 0; i < number5.length ; i++) {
+//     if (number5[i] >= number5[i+1]) (sum = 0);
+// }
+// if ( sum == 0) (console.log("Day khong phai mang so tang"));
+// else (console.log("Day la mang so tang"));
+// Bai 5
+// const number7 = [1, 2, 3, 4, 5, 4, 3, 2, 1];
+// let first = 0;
+// let last = number7.length -1;
+// let sum = 0;
+// while (first <= last && sum == 0) {
+//     if (number7[first] != number7[last]) (sum = 1);
+//     first++;
+//     last--;
+// }
+// if (sum == 1) (console.log("Day khong phai mang so symmetric"));
+// else (console.log("Day la mang so symmetric"))
+// Bai 6
+// const number9 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10];
+// let min = number9[1];
+// for ( i = 0; i < number9.length; i++) {
+//      if ( min > number9[i]) (number9[i] = min)
+// }
+// let first = min;
+// let second = min;
+// for ( i = 0; i< number9.length; i++) {
+//     if (number9[i] > first) {
+//         second = first;
+//         first = number9[i];
+//     }
+//     if (number9[i] < first && number9[i] > second) {
+//         second = number9[i];
+//     }
+// }
+// if (second == first) (console.log("Khong ton tai phan tu lon thu hai"))
+// else (console.log(`So lon thu hai la ${second}`))

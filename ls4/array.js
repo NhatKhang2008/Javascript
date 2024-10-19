@@ -1,17 +1,4 @@
-let animals = [
-  "cat",
-  "dog",
-  "fish",
-  "bird",
-  "chicken",
-  "elephant",
-  "tiger",
-  "lion",
-  "panda",
-  "bear",
-  "monkey",
-  "penguin",
-];
+
 // console.log(typeof animals);
 // array
 // console.log(animals[5]);
